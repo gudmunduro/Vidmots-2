@@ -7,6 +7,6 @@
 3. Fyrst er Vertex set (x, y, z púnktar) sem þú gerir,  það er síðan sett in í uniform bufferinn sem er notaður til að geyma það. Vertex shaderinn notar það síðan til að reykna út hvar púnktarnir eiga að vera á skjánum og setja 
    það inn í varyings sem eru í raun bara variable inn í Vertex shadernum. Næst er Fragment shaderinn sem nær í öll gögnin úr varyings í Vertex shadernum og reyknar út litinn á öllum pixlunum inn á milli púnktana.
    Það er síðan geymt sem pixlar í frame buffernum sem er síðan sett inn á canvasinn.
-4. 
+4. Þau eru mikið betri en aðrar leiðir til að gera translate, rotation og scale.  Það er líka hægt að margfalda mörg fylki saman svo að það sé hægt að gera translate, rotation og scale allt í einu sem er mikið einfaldara fyrir tölvuna heldur en að vera að reykna út fyrir hvert og eitt.
 5. Shader er í raunini bara einhver hluti af pipelineinu í webgl forrinu sem reyknar út og gerir eitthvað með pixlana.  Í byrjun eru bara 2 shaderar, Vertex shader og Fragment shader þar sem Vertex reyknar út staðsetningu púnktana á skjánum og Fragment shader finnur út litinn fyrir hvern pixla.
    GLSL er forritunarmál sem er notað til að búa til shadera.  Það er sérstaklega hannað til að reykna út hluti tengda því og þess vegna er það mjög gott til að gera shadera.
