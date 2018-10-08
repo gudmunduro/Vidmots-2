@@ -17,3 +17,5 @@ d. WebGL og OpenGL eru graphics library sem eru notað til að rendera 2d og 3d 
 4. Þau eru mikið betri en aðrar leiðir til að gera translate, rotation og scale.  Það er líka hægt að nota það til að reykna út alla púnktana á einhverjum hlut í 3d.  Svo er líka hægt að margfalda mörg fylki saman svo að það sé hægt að gera translate, rotation og scale allt í einu sem er mikið einfaldara fyrir tölvuna heldur en að vera að reykna út fyrir hvert og eitt.
 
 5. Shader er í rauninni bara forrit inn í leiknum sem er runað á skjákortinu síðan.  Í byrjun eru bara 2 shaderar, Vertex shader og Fragment shader þar sem Vertex reyknar út staðsetningu púnktana á skjánum og Fragment shader finnur út litinn fyrir hvern pixla.  GLSL eða OpenGL Shading Language er forritunarmál sem er notað til að búa til shadera.  Það er sérstaklega hannað til að reykna út hluti tengda því og þess vegna er það mjög gott til að gera shadera.
+
+6. [Linkur](https://files.gudmunduro.com/webgl-triangle/)
